@@ -171,7 +171,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage.prototype.test = function () {
         alert("test");
-        this.vibration.vibrate(1000);
+        this.vibration.vibrate([2000, 1000, 2000]);
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
