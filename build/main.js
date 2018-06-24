@@ -186,7 +186,7 @@ var HomePage = /** @class */ (function () {
         this.camera.getPicture(options).then(function (imageData) {
             // imageData is either a base64 encoded string or a file URI
             // If it's base64:
-            var base64Image = 'data:image/jpeg;base64,' + imageData;
+            // let base64Image = 'data:image/jpeg;base64,' + imageData;
         }, function (err) {
             // Handle error
         });
